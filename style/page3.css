@@ -1,8 +1,11 @@
 .page3{
-    margin-top : 40px;
-    margin-bottom : 40px;
-    padding-left : calc(22%);
+    padding-top : 40px;
+    padding-bottom : 40px;
+    padding-left : calc(29%);
     padding-bottom : 20px;
+    background-image : url('');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .page3_project_container{
