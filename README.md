@@ -15,5 +15,5 @@
 <img width="600" alt="스크린샷 2024-06-10 오전 3 01 53" src="https://github.com/dongguJeong/naverBootCamp/assets/133619736/52a784bc-e5a8-4c7a-8e95-e38b4f6dfceb">
 
 
-##### 팀프로젝트 정리
-<img width="600" alt="스크린샷 2024-06-10 오전 3 02 12" src="https://github.com/dongguJeong/naverBootCamp/assets/133619736/fc1f5a44-e33c-4fe2-a767-9dc03526da1d">
+##### 팀프로젝트 소개
+<img width="600" alt="스크린샷 2024-06-10 오전 3 24 10" src="https://github.com/dongguJeong/naverBootCamp/assets/133619736/5d389c2a-75fd-472e-a9d7-1091c80201b9">
