@@ -33,4 +33,28 @@ a{
     color : inherit;
 }
 
+.main_title{
+    position : absolute;
+    top : calc(10%);
+    left : calc(38%);
+    font-size : 70px;
+    z-index: 1;
+    animation: 3s linear title;
+}
+
+@keyframes title{
+    from{
+        scale : 0.3;
+        opacity : 0.3;
+    }
+
+    to{
+        scale : 1;
+        opacity : 1;
+    }
+}
+
+
+
+
 

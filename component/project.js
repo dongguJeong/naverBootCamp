@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 window.open(project.github, '_blank');
             });
         }
-        console.log(project.github);
         
         const columnLeftDiv = document.createElement('img');
         columnLeftDiv.classList.add('project_container_detail_columnLeft');
