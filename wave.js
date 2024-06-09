@@ -26,8 +26,8 @@ export class Wave{
        for(let i = 0 ; i < this.totalPoints ; i++){
             const wavePoint = new WavePoint(
                 i,
-                this.pointGap*i - 0.6*this.pointGap ,
-                this.stageHeight/2,
+                this.pointGap*i - 0.8*this.pointGap ,
+                this.stageHeight * 0.8,
                 this.MAX,
             );
             this.wavePoints[i] = wavePoint;

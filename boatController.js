@@ -6,7 +6,7 @@ export class BoatController{
         this.img.onload = () => {
             this.loaded();
         }
-        this.img.src = 'sheep.png';
+        this.img.src = './img/boat2.gif';
         this.item = null;
         this.cur = 0;
         this.isLoaded = false;
@@ -30,7 +30,7 @@ export class BoatController{
         if(this.isLoaded){
             // 화면 밖으로 나가면 원점으로
             if(this.item.x < -this.item.boatWidth){
-                this.item.x = this.stageWidth + this.item.boatWidth;
+                this.item.x = this.stageWidth + this.item.boatWidth/4;
             }
             this.item.draw(ctx, t, dots);
         }

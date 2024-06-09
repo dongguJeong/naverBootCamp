@@ -5,18 +5,18 @@ export class Boat{
         this.curFrame = 0;
 
         // 그림 한 장의 실제 넓이와 높이
-        this.imgWidth =360;
-        this.imgHeight = 300;
+        this.imgWidth =1280;
+        this.imgHeight = 720;
 
         //화면에 그려질 이미지의 넓이와 높이
         //레티나 디스플레이를 고려해 scale(2,2)를 한 상황
         //따라서 화면에 그려질 이미지의 크기를 실제 이미지의 절반씩으로 줄인다.
-        this.boatWidth = 180;
-        this.boatHeight = 150;
+        this.boatWidth = 640;
+        this.boatHeight = 360;
 
         // 배가 화면 밖에서 등장하도록 설정
         this.boatWidthhalf = this.boatWidth/2;
-        this.x = stageWidth + this.boatWidth;
+        this.x = stageWidth ;
         this.y = 0;
         this.speed =  2;
 
@@ -25,24 +25,7 @@ export class Boat{
     }
 
     draw(ctx,t,dots){
-        // requestAnimationFrame으로부터 받은 최초의 타임스탬프를 시간으로 정의한다
-        if(!this.time){
-            this.time = t;
-        }
-
-        // 애니메이션이 처음 시작된 후로부터 얼마나 지났는지 확인
-        const now  = t- this.time;
-
-        // fpsTime 보다 많이 지났다면 시간을 갱신해준다.
-        if(now > this.fpsTime){
-            this.time = t;
-            this.curFrame += 1;
-
-            // totalFrame보다 넘어가면 다시 0으로 초기화해서 반복될 수 있도록 한다
-            if(this.curFrame == this.totalFrame){
-                this.curFrame = 0;
-            }
-        }
+        
         this.animate(ctx,dots);
     }
 
@@ -56,12 +39,8 @@ export class Boat{
         ctx.fillStyle = '#000000';
         ctx.drawImage(
             this.img,
-            this.imgWidth * this.curFrame,
-            0,
-            this.imgWidth,
-            this.imgHeight,
-            -this.boatWidthhalf, 
-            -this.boatHeight + 20, // 그림에서 생기는 여백만큼 플러스
+            -this.boatWidthhalf,
+            -this.boatHeight + 90,
             this.boatWidth,
             this.boatHeight
         );

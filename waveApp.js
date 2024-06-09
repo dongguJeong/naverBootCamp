@@ -1,7 +1,7 @@
 import { BoatController } from "./boatController.js";
 import { Wave } from "./wave.js";
 
-const MAX = 10;
+const MAX = 5;
 
 class App{
     constructor(){
