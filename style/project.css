@@ -1,0 +1,95 @@
+
+.project_container_detail{
+    display: flex;
+    height : 180px;
+    padding-top : 20px;
+    width : 660px;
+    padding-left : 10px;
+    transition: all 0.3s ease-in;
+}
+
+.project_container_detail:hover{
+    background-color: rgba(0,0,0,0.2);
+    border-radius : 10px;
+    cursor : pointer;
+}
+
+
+.project_container_detail_columnLeft{
+    width : 140px;
+    height: 140px; 
+    margin-right : 30px;
+    border-radius: 5px;
+}
+
+.project_container_detail_columnRight{
+    width : 350px;
+}
+
+.project_container_detail_columnRight_title{
+    font-size : 16px;
+    padding-top : 8px;
+    position : relative;  
+}
+
+.project_container_detail_columnRight_link{
+    position : absolute;
+    top : 2px;
+    right : -100px;
+}
+
+
+.project_container_detail_columnRight_period{
+    font-size : 14px;
+    color : #999999;
+    margin-bottom  :10px;
+}
+
+
+.project_container_detail_columnRight_content{
+    font-size : 14px;
+    height : 44px;
+}
+
+.project_container_detail_columnRight_content div{
+    margin-bottom : 0px;
+}
+
+.project_container_detail_columnRight_stack{
+    display: flex;
+}
+
+.stack{
+    padding : 4px 8px;
+    font-size : 12px;
+    font-weight: 500;
+    border-radius : 20px;
+    display: flex;
+    margin-right : 8px;
+     color : white;
+}
+
+.vanilla_JS{
+   
+    background-color: #EFD81A;
+
+}
+
+.React{
+    
+    background-color : #5ED2F3;
+}
+
+.TypeScript{
+    background-color : #2F73BF;
+}
+
+.webgl{
+ 
+    background-color : #910001;
+}
+
+.NextJS{
+    
+    background-color : #000000;
+}

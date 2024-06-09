@@ -1,0 +1,67 @@
+.page2{
+    padding-top : 60px;
+    padding-bottom : 40px;
+    padding-left : calc(22%);
+    background-image: url("../네부캠.png");
+    width : 100%;
+    height : 100%;
+}
+
+.page2_content_container{
+    
+    padding : 60px 80px;
+  
+    border-radius: 20px;
+    width : 660px;
+    background-color: rgba(256,256,256,0.8);
+}
+
+.page2_title_container{
+    margin-bottom : 45px;
+}
+
+.page2_title_container h2{
+    
+    text-align : center;
+}
+
+.naver_green{
+    color : #1AC201;
+}
+
+.page2_profile_container{
+    display : flex;
+}
+
+.page2_profile_container_columnLeft{
+    padding-left : 50px;
+}
+
+.page2_profile_container__columnRight{
+    padding-left : 40px;
+    padding-top : 25px;
+    font-size : 14px;
+}
+
+.page2_profile_container__columnRight div{
+    margin-bottom : 10px;
+}
+
+.page2_skill_container{
+    padding-left : 80px;
+    padding-top : 30px;
+    font-size : 16px;
+}
+
+.page2_skill_container_title{
+    margin-bottom  :20px;
+}
+
+.page2_skill_container_title span{
+    font-weight : 500;
+    color : #A65132;
+}
+
+.page2_skill_container_content div{
+    margin-bottom : 10px;
+}

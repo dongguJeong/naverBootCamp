@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/style.css"/>
+    <link rel="stylesheet" type="text/css" href="style/page2.css"/>
+    <link rel="stylesheet" type="text/css" href="style/page3.css"/>
+    <link rel="stylesheet" type="text/css" href="style/project.css"/>
+    <link rel="stylesheet" type="text/css" href="style/overlay.css"/>
+    <title>PortPolio</title>
+</head>
+<body>
+    <canvas class="wave"></canvas>
+    <div class="page2">
+        <div class="page2_content_container">
+            <div class="page2_title_container">
+                <h2>거친 풍랑과 같은 세상</h2>
+                <h2><span class="naver_green">네이버 부스트캠프</span>를 나침반 삼아 앞으로 나아가고 싶습니다</h2>
+            </div>
+            <div class="page2_profile_container">
+                <div class="page2_profile_container_columnLeft">
+                    <img style="width : 150px; height : 150px; border-radius: 50%; transform: rotate(-20deg);"
+                        src = './img/profile.png';
+
+                        />
+                </div>
+                <div class="page2_profile_container__columnRight">
+                <div><span>이름 : 정동구</span></div>
+                <div><span>학력 : 아주대 사이버보안학과</span></div>
+                <div><span>나이 : 2000.08.03</span></div>
+                </div>
+            </div>    
+            <div class="page2_skill_container">
+                <div class="page2_skill_container_title"><span>주요 SKILL</span></div>
+                <div class="page2_skill_container_content">
+                    <div><span><b>Redux</b>를 이용해 상태 관리를 할 수 있습니다</span></div>
+                    <div><span>useState, useParams 등 다양한 <b>react hook</b>을 이용해 CSR를 할 수 있습니다</span></div>
+                    <div><span><b>타입스크립트</b>를 이용해 안정적으로 코드개발을 할 수 있습니다</span></div>
+                    <div><span><b>Tailwind</b>와 <b>Next.js</b>를 이용해 서버사이드렌더링 페이지를 제작할 수 있습니다</span></div>
+                    <div><span><b>Webgl</b>를 사용하여 원하는 계층 모델을 만들 수 있습니다</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class ="page3">
+        <div class="page3_content_container">
+            <div class="page3_project_container">
+                <div class="page3_project_container_title">
+                    <span>Project</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+    <script type="module" src="waveApp.js"></script>
+    <script type="module" src="page2.js"></script>
+    <script type="module" src="./component/project.js"></script>
+</body>
+</html>
