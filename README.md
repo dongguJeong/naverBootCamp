@@ -7,7 +7,7 @@
 
 
 ##### sin 함수를 이용한 파도 구현
-##### 피그마로 직접 그린 배.gif
+##### 배는 어디서 가져온 거 아닙니다. 어도비 애니메이터로 직접 그렸습니다. 
 
 <img width="600" alt="스크린샷 2024-06-10 오전 3 01 41" src="https://github.com/dongguJeong/naverBootCamp/assets/133619736/ebd89bea-fb31-4b1a-bd0b-c6d59d41b50e">
 
