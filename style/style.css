@@ -39,7 +39,7 @@ a{
     left : calc(38%);
     font-size : 70px;
     z-index: 1;
-    animation: 3s linear title;
+    animation: 3s ease-in title;
 }
 
 @keyframes title{
