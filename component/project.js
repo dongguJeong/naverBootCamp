@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
             tasks: ['거친 바다와 같은 세상을 네이버 부스트캠프와 함께 나아가는 간절한 소망이 담긴 웹사이트',],
             techStacks: ['vanilla JS',],
             github : 'https://github.com/dongguJeong/naverBootCamp',
-            imgsrc : '/img/포트폴리오.png',
+            imgsrc : 'naverBootCamp/img/포트폴리오.png',
         },
         {
         name: '카트라이더 모델 제작',
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
         tasks: ['webgl을 사용한 계층 모델 구현'],
         techStacks: ['webgl',],
         github : 'https://github.com/JoKaeChat/computer-graphics',
-        imgsrc : '/img/webgl.png',
+        imgsrc : 'naverBootCamp/img/webgl.png',
         },
         
         {
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
         tasks: ['AI 커버곡 생성 사이트',],
         techStacks: ['TypeScript','React',],
         github : 'https://github.com/dongguJeong/SongSSam',
-        imgsrc : '/img/songssam.png',
+        imgsrc : 'naverBootCamp/img/songssam.png',
         },
         {
             name: '멋쟁이사자 해커톤',
@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
             tasks: ['네이버 뉴스에 많이 나온 키워드를 수집해 관련된 요약 기사를 보여주는 사이트',],
             techStacks: ['TypeScript','NextJS'],
             github : 'https://github.com/dongguJeong/SongSSam',
-            imgsrc : '/img/keyword.png',  
+            imgsrc : 'naverBootCamp/img/keyword.png',  
         },
       
     ];
