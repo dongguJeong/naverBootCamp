@@ -82,11 +82,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const project = [
         {   
             name: '네이버 부스트캠프 포트폴리오 사이트 제작',
-            period: '2024.06.06 ~ 2024.06.09',
+            period: '2024.06.06 ~ 2024.06.10',
             tasks: ['거친 바다와 같은 세상을 네이버 부스트캠프와 함께 나아가는 간절한 소망이 담긴 웹사이트',],
             techStacks: ['vanilla JS',],
-            github : '',
-            imgsrc : '../img/songssam.png',
+            github : 'https://github.com/dongguJeong/naverBootCamp',
+            imgsrc : '../img/포트폴리오.png',
         },
         {
         name: '카트라이더 모델 제작',
