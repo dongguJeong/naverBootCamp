@@ -33,14 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const projectTitleLink_a = document.createElement('a');
         projectTitleLink_a.href = project.github;
 
-        const linkImage = document.createElement('img');
-        linkImage.src = './img/github.svg';
-        linkImage.alt = 'github';
-        linkImage.style.width = '32px';
-        linkImage.style.height = '32px';
-        projectTitleLink_a.appendChild(linkImage);
-        projectTitleLink.appendChild(projectTitleLink_a);
-        projectTitleDiv.appendChild(projectTitleLink);
+        
 
         const periodDiv = document.createElement('div');
         periodDiv.classList.add('project_container_detail_columnRight_period');
