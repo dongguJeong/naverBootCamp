@@ -5,15 +5,13 @@
     padding-top : 20px;
     width : 660px;
     padding-left : 10px;
-    transition: all 0.3s ease-in;
+    position : relative;
 }
 
-.project_container_detail:hover{
-    background-color: rgba(0,0,0,0.2);
-    border-radius : 10px;
-    cursor : pointer;
+.project_container_detail:hover > .project_container_detail_github{
+    transition : all 0.3s;
+    opacity: 1;
 }
-
 
 .project_container_detail_columnLeft{
     width : 140px;
@@ -92,4 +90,24 @@
 .NextJS{
     
     background-color : #000000;
+}
+
+.project_container_detail_github{
+    position: absolute;
+    top : 0;
+    left : 0;
+    width : inherit;
+    height : inherit;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor : pointer;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.project_container_detail_github_span{
+    color : white;
+    font-size : 18px;
 }

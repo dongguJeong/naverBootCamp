@@ -13,6 +13,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 window.open(project.github, '_blank');
             });
         }
+
+        const githubDiv = document.createElement('div');
+        githubDiv.classList.add('project_container_detail_github');
+        const githubSpan = document.createElement('span');
+        githubSpan.classList.add('project_container_detail_github_span');
+        githubSpan.innerText = 'Go github';
+        githubDiv.appendChild(githubSpan);
+        detailDiv.appendChild(githubDiv);
         
         const columnLeftDiv = document.createElement('img');
         columnLeftDiv.classList.add('project_container_detail_columnLeft');
