@@ -21,4 +21,5 @@
 
 ##### 참고
 [HTML5 Canvas Tutorial : 움직이는 웨이브 만들기] : https://www.youtube.com/watch?v=LLfhY4eVwDY&t=3s
+
 [독학으로 고급 개발자 되는 방법] : https://www.youtube.com/watch?v=hCHL7sydzn0&t=305s
