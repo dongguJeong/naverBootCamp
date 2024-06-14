@@ -17,3 +17,8 @@
 
 ##### 팀프로젝트 소개
 <img width="600" alt="스크린샷 2024-06-10 오전 3 24 10" src="https://github.com/dongguJeong/naverBootCamp/assets/133619736/5d389c2a-75fd-472e-a9d7-1091c80201b9">
+
+
+##### 참고
+[HTML5 Canvas Tutorial : 움직이는 웨이브 만들기] : https://www.youtube.com/watch?v=LLfhY4eVwDY&t=3s
+[독학으로 고급 개발자 되는 방법] : https://www.youtube.com/watch?v=hCHL7sydzn0&t=305s
